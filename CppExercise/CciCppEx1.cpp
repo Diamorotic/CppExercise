@@ -3,9 +3,7 @@
 void CciCppEx1::execute() {
 	ifstream fileToRead(filePath);
 	deque<string> res;
-	int i = 0;
-	string line;
-	while (getline(fileToRead, line)) {
+	for (string line; getline(fileToRead, line);) {
 		res.push_back(line);
 		if (res.size() > linesToRead) res.pop_front();
 	}
