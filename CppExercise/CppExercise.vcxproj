@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="CppExercise.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\EmptyFile.txt" />
+    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\Zeszyt1.txt" />
+    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\Zeszyt2.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
