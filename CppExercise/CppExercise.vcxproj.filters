@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\CCI">
+      <UniqueIdentifier>{914bda8f-212b-4013-b0bc-4d1102a2e0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CCI\Ex1">
+      <UniqueIdentifier>{8a2fd474-74f2-4f37-8bcc-d5485c9b161e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppExercise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\EmptyFile.txt">
+      <Filter>Resource Files\CCI\Ex1</Filter>
+    </Text>
+    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\Zeszyt1.txt">
+      <Filter>Resource Files\CCI\Ex1</Filter>
+    </Text>
+    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\Zeszyt2.txt">
+      <Filter>Resource Files\CCI\Ex1</Filter>
+    </Text>
   </ItemGroup>
 </Project>

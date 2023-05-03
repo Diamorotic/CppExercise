@@ -1,11 +1,14 @@
 // CppExercise.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include "CciCppEx1.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
+using namespace std;
+
+int main() {
+    auto exObject = CciCppEx1("Resources\\CCI\\Ex1\\Zeszyt1.txt", 5);
+    exObject.execute();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
