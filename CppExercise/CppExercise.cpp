@@ -1,13 +1,13 @@
 // CppExercise.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
 #include "CciCppEx1.h"
 
 using namespace std;
 
 int main() {
-    //CciCppEx1
+    auto exObject = CciCppEx1("Resources\\CCI\\Ex1\\Zeszyt1.txt", 5);
+    exObject.execute();
     return 0;
 }
 
