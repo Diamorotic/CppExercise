@@ -14,7 +14,7 @@ int main() {
     //*/
 
     //CCI Ex2
-    //*
+    /*
     char* input = new char[100];
     cout <<"Enter a word to revert: ";
     cin >>input;
