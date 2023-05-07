@@ -2,12 +2,18 @@
 //
 
 #include "CciCppEx1.h"
+#include "CciCppEx2.h"
 
 using namespace std;
 
 int main() {
-    auto exObject = CciCppEx1("Resources\\CCI\\Ex1\\Zeszyt1.txt", 5);
-    exObject.execute();
+    //auto exObject = CciCppEx1("Resources\\CCI\\Ex1\\Zeszyt1.txt", 5);
+    //exObject.execute();
+    char* input = new char[100];
+    cout <<"Enter a word to revert: ";
+    cin >>input;
+    CciCppEx2::execute(input);
+    CciCppEx2::printArr(input);
     return 0;
 }
 

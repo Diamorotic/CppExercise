@@ -24,16 +24,30 @@
     <ClCompile Include="CppExercise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CciCppEx1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CciCppEx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\EmptyFile.txt">
+    <Text Include="Resources\CCI\Ex1\EmptyFile.txt">
       <Filter>Resource Files\CCI\Ex1</Filter>
     </Text>
-    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\Zeszyt1.txt">
+    <Text Include="Resources\CCI\Ex1\Zeszyt1.txt">
       <Filter>Resource Files\CCI\Ex1</Filter>
     </Text>
-    <Text Include="..\..\..\..\..\..\TMP\CppPlayground\CCI\CPP-ex\Ex1\Zeszyt2.txt">
+    <Text Include="Resources\CCI\Ex1\Zeszyt2.txt">
       <Filter>Resource Files\CCI\Ex1</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CciCppEx1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CciCppEx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
