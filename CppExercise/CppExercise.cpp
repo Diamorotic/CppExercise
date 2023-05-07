@@ -7,13 +7,21 @@
 using namespace std;
 
 int main() {
-    //auto exObject = CciCppEx1("Resources\\CCI\\Ex1\\Zeszyt1.txt", 5);
-    //exObject.execute();
+    //CCI Ex1
+    /*
+    auto exObject = CciCppEx1("Resources\\CCI\\Ex1\\Zeszyt1.txt", 5);
+    exObject.execute();
+    //*/
+
+    //CCI Ex2
+    //*
     char* input = new char[100];
     cout <<"Enter a word to revert: ";
     cin >>input;
     CciCppEx2::execute(input);
     CciCppEx2::printArr(input);
+    //*/
+
     return 0;
 }
 
