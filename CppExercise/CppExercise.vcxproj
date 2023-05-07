@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CciCppEx1.cpp" />
+    <ClCompile Include="CciCppEx2.cpp" />
     <ClCompile Include="CppExercise.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CciCppEx1.h" />
+    <ClInclude Include="CciCppEx2.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Resources\CCI\Ex1\EmptyFile.txt" />
